@@ -61,13 +61,6 @@
     display: flex;
     gap: 20px;
   }
-  .text-home-container::after {
-    top: -100px;
-    right: -100px;
-    left: -100px;
-    bottom: -100px;
-    transform: translatex(400px);
-  }
   .btns-container-home {
     flex-direction: row;
   }
@@ -91,11 +84,5 @@
   .home {
     max-width: 1200px;
     gap: 50px;
-  }
-  .text-home-container::after {
-    transform: translateX(600px);
-  }
-  .btn-home {
-    width: 25%;
   }
 }
