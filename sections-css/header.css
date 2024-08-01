@@ -145,6 +145,9 @@
     position: fixed;
     padding: 0 40px;
   }
+  .navbar-logo{
+    width: 20%;
+  }
   .navbar-sections {
     display: flex;
     gap: 30px;
