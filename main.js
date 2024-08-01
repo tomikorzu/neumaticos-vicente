@@ -20,7 +20,7 @@ navLinks.forEach(link => {
 });
 
 document.addEventListener('DOMContentLoaded', function () {
-    const offset = 60; // Ajustar según la altura de la navbar
+    const offset = 70;
     document.querySelectorAll('a[href^="#"]').forEach(link => {
         link.addEventListener('click', function (e) {
             e.preventDefault();
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
 function handleScroll() {
     const navbar = document.querySelector('.navbar');
     
-    if (window.scrollY > 50) {
+    if (window.scrollY > 70) {
         navbar.classList.add('scrolled');
     } else {
         navbar.classList.remove('scrolled');
