@@ -1,20 +1,50 @@
 .home {
+  padding: 30px 20px 50px;
+  max-width: 330px;
+  margin: auto;
+  margin-top: 50px;
+  overflow: hidden;
 }
 .text-home-container {
-}
-.h1-home {
-}
-.p-home {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
 }
 .btns-container-home {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  padding: 15px 0 30px;
 }
 .btn-home {
+  font-size: 0.875em;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 35%;
+  cursor: pointer;
 }
 .store {
+  background-color: #af2e2e;
+}
+.store:hover {
+  background-color: #810101;
+  transition: 0.4s ease-in-out;
 }
 .contact {
+  background-color: #000;
+}
+.contact:hover {
+  background-color: #00000030;
+  transition: 0.4s ease-in-out;
 }
 .img-home {
+  width: 100%;
+  border-radius: 5px;
 }
 
 @media (min-width: 768px) {
