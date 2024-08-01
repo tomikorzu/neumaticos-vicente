@@ -11,8 +11,8 @@
   gap: 10px;
   position: relative;
 }
-.h1-home{
-    font-size: 1.75em;
+.h1-home {
+  font-size: 1.75em;
 }
 .btns-container-home {
   display: flex;
@@ -79,42 +79,23 @@
 
 @media (min-width: 1024px) {
   .home {
-  }
-  .text-home-container {
-  }
-  .h1-home {
-  }
-  .p-home {
-  }
-  .btns-container-home {
-  }
-  .btn-home {
-  }
-  .store {
-  }
-  .contact {
+    max-width: 1024px;
+    gap: 25px;
   }
   .img-home {
+    max-width: 50%;
   }
 }
 
 @media (min-width: 1440px) {
   .home {
+    max-width: 1200px;
+    gap: 50px;
   }
-  .text-home-container {
-  }
-  .h1-home {
-  }
-  .p-home {
-  }
-  .btns-container-home {
+  .text-home-container::after {
+    transform: translateX(600px);
   }
   .btn-home {
-  }
-  .store {
-  }
-  .contact {
-  }
-  .img-home {
+    width: 25%;
   }
 }
