@@ -18,3 +18,30 @@ navLinks.forEach(link => {
         }
     });
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    const offset = 60; // Ajustar según la altura de la navbar
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href');
+            const targetPosition = document.querySelector(targetId).getBoundingClientRect().top + window.pageYOffset - offset;
+
+            window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
+            });
+        });
+    });
+});
+
+function handleScroll() {
+    const navbar = document.querySelector('.navbar');
+    
+    if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+    } else {
+        navbar.classList.remove('scrolled');
+    }
+}
+window.addEventListener('scroll', handleScroll);
