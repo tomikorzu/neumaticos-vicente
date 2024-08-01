@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Neumáticos Vicente</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="./sections-css/header.css">
-    <link rel="stylesheet" href="./sections-css/home.css">
+    <link rel="stylesheet" href="./sections-css/header.css" />
+    <link rel="stylesheet" href="./sections-css/home.css" />
   </head>
   <body>
     <header>
@@ -18,9 +18,9 @@
         /></a>
         <ul class="navbar-sections">
           <li><a href="#home" class="navbar-sections-a">Inicio</a></li>
-          <li><a href="#functions" class="navbar-sections-a">Sobre nosotros</a></li>
           <li><a href="#store" class="navbar-sections-a">Tienda</a></li>
-          <li><a href="#footer" class="navbar-sections-a">Contacto</a></li>
+          <li><a href="#info" class="navbar-sections-a">Información</a></li>
+          <li><a href="#contact" class="navbar-sections-a">Contacto</a></li>
         </ul>
         <ul class="navbar-links">
           <li>
@@ -48,11 +48,13 @@
       </nav>
       <ul class="mobile-navbar-sections" id="mobile-navbar-sections">
         <li><a href="#home" class="mobile-navbar-sections-a">Inicio</a></li>
-        <li>
-          <a href="#about" class="mobile-navbar-sections-a">Sobre nosotros</a>
-        </li>
         <li><a href="#store" class="mobile-navbar-sections-a">Tienda</a></li>
-        <li><a href="#footer" class="mobile-navbar-sections-a">Contacto</a></li>
+        <li>
+          <a href="#info" class="mobile-navbar-sections-a">Información</a>
+        </li>
+        <li>
+          <a href="#contact" class="mobile-navbar-sections-a">Contacto</a>
+        </li>
         <ul class="mobile-navbar-links">
           <li>
             <a href="https://instagram.com" class="navbar-link"
@@ -69,27 +71,27 @@
     </header>
 
     <main>
-        <div class="home" id="home">
-            <div class="text-home-container">
-                <h1 class="h1-home">Neumáticos Vicente: Calidad y Confianza en Cada Kilómetro</h1>
-                <p class="p-home">
-                    Nos especializamos en ofrecer productos de alta calidad para todo tipo de vehículos. Nuestra prioridad es garantizar tu seguridad y comodidad en cada viaje
-                </p>
-                <div class="btns-container-home">
-                  <a
-                    class="btn-home store"
-                    href="#tienda"
-                    >Tienda</a
-                  >
-                  <a class="btn-home contact" href="#contact">Contactanos</a>
-                </div>
-              </div>
-              <img
-                src="./img/vicente-neumaticos-background.png"
-                class="img-home"
-                alt="Imagen de logo"
-              />
+      <section class="home" id="home">
+        <div class="text-home-container">
+          <h1 class="h1-home">
+            Neumáticos Vicente: Calidad y Confianza en Cada Kilómetro
+          </h1>
+          <p class="p-home">
+            Nos especializamos en ofrecer productos de alta calidad para todo
+            tipo de vehículos. Nuestra prioridad es garantizar tu seguridad y
+            comodidad en cada viaje
+          </p>
+          <div class="btns-container-home">
+            <a class="btn-home store" href="#tienda">Tienda</a>
+            <a class="btn-home contact" href="#contact">Contactanos</a>
+          </div>
         </div>
+        <img
+          src="./img/vicente-neumaticos-background.png"
+          class="img-home"
+          alt="Imagen de logo"
+        />
+      </section>
     </main>
     <script src="main.js"></script>
   </body>
