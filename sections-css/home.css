@@ -39,10 +39,10 @@
   transition: 0.4s ease-in-out;
 }
 .contact {
-  background-color: #000;
+  background-color: #444141;
 }
 .contact:hover {
-  background-color: #00000030;
+  background-color: #000;
   transition: 0.4s ease-in-out;
 }
 .img-home {
