@@ -1,34 +1,123 @@
 .navbar {
+  background-color: #363639;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: background-color 0.4s ease-in-out;
 }
 .navbar-logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.navbar-logo img {
+  width: 70px;
+  transform: translateY(4px);
 }
 .navbar-sections {
-}
-.navbar-sections-a {
+  display: none;
 }
 .navbar-links {
+  display: none;
 }
 .navbar-link {
+  color: #f0e9e9;
 }
-.navbar-icon-link {
+.navbar-link:hover {
+  color: #fff;
+  transition: 0.2s ease-in-out;
+}
+.navbar-log-sign-ul {
+  display: none;
 }
 .mobile-navbar-button {
+  position: relative;
+  border: none;
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  cursor: pointer;
 }
 .lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 .line {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #fff;
+  border-radius: 10px;
 }
 .line1 {
+  top: 0;
 }
 .line2 {
+  top: 50%;
+  transform: translateY(-50%);
 }
 .line3 {
+  bottom: 0;
 }
+.lines,
+.line1,
+.line2,
+.line3 {
+  transition: all 0.4s ease-in-out;
+}
+
 .mobile-navbar-sections {
+  z-index: 1;
+  position: fixed;
+  top: 0px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  text-align: center;
+  width: 100%;
+  background-color: #363639;
+  margin: 0;
+  transform: translateX(-100%);
+  transition: transform 0.4s ease-in-out;
+}
+.navbar,
+.navbar-logo,
+.mobile-navbar-button {
+  z-index: 2;
 }
 .mobile-navbar-sections-a {
+  color: #f0e9e9;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+.mobile-navbar-sections-a:hover {
+  color: #fff;
+  transition: 0.4s ease-in-out;
 }
 .mobile-navbar-links {
+  position: absolute;
+  bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.navbar-link {
+  font-size: 1.5em;
 }
 
 @media (min-width: 768px) {
