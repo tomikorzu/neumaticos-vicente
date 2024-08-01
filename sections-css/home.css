@@ -11,6 +11,9 @@
   gap: 10px;
   position: relative;
 }
+.h1-home{
+    font-size: 1.75em;
+}
 .btns-container-home {
   display: flex;
   flex-direction: column;
@@ -49,22 +52,27 @@
 
 @media (min-width: 768px) {
   .home {
+    margin-top: 0;
+    height: 100vh;
+    align-items: center;
+    overflow: hidden;
+    max-width: 768px;
+    display: flex;
+    gap: 20px;
   }
-  .text-home-container {
-  }
-  .h1-home {
-  }
-  .p-home {
+  .text-home-container::after {
+    top: -100px;
+    right: -100px;
+    left: -100px;
+    bottom: -100px;
+    transform: translatex(400px);
   }
   .btns-container-home {
-  }
-  .btn-home {
-  }
-  .store {
-  }
-  .contact {
+    flex-direction: row;
   }
   .img-home {
+    object-fit: contain;
+    max-width: 350px;
   }
 }
 
