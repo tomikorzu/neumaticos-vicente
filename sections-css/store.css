@@ -1,11 +1,41 @@
-@media (min-width: 768px){
-
+.store-section {
+}
+.h2-store-section {
+}
+.p-store-section {
+}
+.store-section-link {
 }
 
-@media (min-width: 1024px){
-    
+@media (min-width: 768px) {
+  .store-section {
+  }
+  .h2-store-section {
+  }
+  .p-store-section {
+  }
+  .store-section-link {
+  }
 }
 
-@media (min-width: 1440px){
-    
+@media (min-width: 1024px) {
+  .store-section {
+  }
+  .h2-store-section {
+  }
+  .p-store-section {
+  }
+  .store-section-link {
+  }
+}
+
+@media (min-width: 1440px) {
+  .store-section {
+  }
+  .h2-store-section {
+  }
+  .p-store-section {
+  }
+  .store-section-link {
+  }
 }
