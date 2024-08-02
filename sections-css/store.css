@@ -47,27 +47,16 @@
 }
 
 @media (min-width: 1024px) {
-  .store-section {
-  }
-  .store-section-container {
-  }
-  .h2-store-section {
-  }
-  .p-store-section {
-  }
-  .store-section-link {
+    .store-section-container {
+        max-width: 1024px;
+    }
+    .store-section-link {
+      width: 15%;
   }
 }
 
 @media (min-width: 1440px) {
-  .store-section {
-  }
   .store-section-container {
-  }
-  .h2-store-section {
-  }
-  .p-store-section {
-  }
-  .store-section-link {
+    max-width: 1200px;
   }
 }
