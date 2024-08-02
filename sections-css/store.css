@@ -10,6 +10,8 @@
 @media (min-width: 768px) {
   .store-section {
   }
+  .store-section-container {
+  }
   .h2-store-section {
   }
   .p-store-section {
@@ -21,6 +23,9 @@
 @media (min-width: 1024px) {
   .store-section {
   }
+  .store-section-container{
+
+  }
   .h2-store-section {
   }
   .p-store-section {
@@ -31,6 +36,9 @@
 
 @media (min-width: 1440px) {
   .store-section {
+  }
+  .store-section-container{
+    
   }
   .h2-store-section {
   }
