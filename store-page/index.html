@@ -4,10 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda online</title>
-    <link rel="stylesheet" href="../sections-css/store.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../sections-css/header.css">
+    <link rel="stylesheet" href="./sections-css-store/store.css">
 </head>
 <body>
-    <a href="../index.html">Volver</a>
+  <header>
+    <nav class="navbar">
+      <a class="navbar-logo" href="./index.html"
+        ><img
+          src="../img/Neumaticos-logo-2-logo-vn- (1).png"
+          alt="Neumáticos Vicente logo"
+      /></a>
+      <ul class="navbar-sections">
+        <li><a href="../index.html" class="navbar-sections-a">Inicio</a></li>
+        <li><a href="#products" class="navbar-sections-a">Productos</a></li>
+        <li><a href="#services" class="navbar-sections-a">Servicios</a></li>
+        <li><a href="#contact" class="navbar-sections-a">Contacto</a></li>
+      </ul>
+      <ul class="navbar-links">
+        <li>
+          <a href="https://instagram.com" class="navbar-link"
+            ><i class="fa-brands fa-instagram navbar-icon-link"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://facebook.com" class="navbar-link"
+            ><i class="fa-brands fa-facebook-f navbar-icon-link"></i
+          ></a>
+        </li>
+      </ul>
+      <button
+        class="mobile-navbar-button"
+        id="hamburguer-button"
+        aria-label="Toggle navigation"
+      >
+        <div class="lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+      </button>
+    </nav>
+    <ul class="mobile-navbar-sections" id="mobile-navbar-sections">
+      <li><a href="../index.html" class="mobile-navbar-sections-a">Inicio</a></li>
+      <li>
+        <a href="#products" class="mobile-navbar-sections-a">Productos</a>
+      </li>
+      <li>
+        <a href="#services" class="mobile-navbar-sections-a">Servicios</a>
+      </li>
+      <li>
+        <a href="#contact" class="mobile-navbar-sections-a">Contacto</a>
+      </li>
+      <ul class="mobile-navbar-links">
+        <li>
+          <a href="https://instagram.com" class="navbar-link"
+            ><i class="fa-brands fa-instagram navbar-icon-link"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://facebook.com" class="navbar-link"
+            ><i class="fa-brands fa-facebook-f navbar-icon-link"></i
+          ></a>
+        </li>
+      </ul>
+    </ul>
+  </header>
 
     <!-- <section id="store" class="store">
         <h2 class="h2-store">Nuestra tienda</h2>
@@ -46,5 +109,6 @@
         </div>
       </section> -->
     <script src="./store.js"></script>
+    <script src="../main.js"></script>
 </body>
 </html>
