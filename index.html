@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./sections-css/home.css" />
     <link rel="stylesheet" href="./sections-css/info.css" />
     <link rel="stylesheet" href="./sections-css/store.css" />
+    <link rel="stylesheet" href="./sections-css/services.css">
     <link rel="stylesheet" href="./sections-css/contact.css" />
   </head>
   <body>
@@ -22,6 +23,9 @@
         <ul class="navbar-sections">
           <li><a href="#home" class="navbar-sections-a">Inicio</a></li>
           <li><a href="#store-section" class="navbar-sections-a">Tienda</a></li>
+          <li>
+            <a href="#services" class="mobile-navbar-sections-a">Servicios</a>
+          </li>
           <li><a href="#info" class="navbar-sections-a">Información</a></li>
           <li><a href="#contact" class="navbar-sections-a">Contacto</a></li>
         </ul>
@@ -51,7 +55,12 @@
       </nav>
       <ul class="mobile-navbar-sections" id="mobile-navbar-sections">
         <li><a href="#home" class="mobile-navbar-sections-a">Inicio</a></li>
-        <li><a href="#store-section" class="mobile-navbar-sections-a">Tienda</a></li>
+        <li>
+          <a href="#store-section" class="mobile-navbar-sections-a">Tienda</a>
+        </li>
+        <li>
+          <a href="#services" class="mobile-navbar-sections-a">Servicios</a>
+        </li>
         <li>
           <a href="#info" class="mobile-navbar-sections-a">Información</a>
         </li>
@@ -99,20 +108,23 @@
       <section id="store-section" class="store-section">
         <div class="store-section-container">
           <h2 class="h2-store-section">Visita nuestra tienda</h2>
-          <p class="p-store-section">Explora nuestra selección de neumáticos de alta calidad para tu seguridad y comodidad.</p>
-          <a href="./store-page/index.html" class="store-section-link">Entrar</a>
+          <p class="p-store-section">
+            Explora nuestra selección de neumáticos de alta calidad para tu
+            seguridad y comodidad.
+          </p>
+          <a href="./store-page/index.html" class="store-section-link"
+            >Entrar</a
+          >
         </div>
       </section>
-        
-        <section id="info" class="info">
-          
-      </section>
-    </main>
-    
-    <footer id="contact" class="contact">
 
-    </footer>
-    
+      <section class="services" id="services"></section>
+
+      <section id="info" class="info"></section>
+    </main>
+
+    <footer id="contact" class="contact"></footer>
+
     <script src="main.js"></script>
   </body>
 </html>
