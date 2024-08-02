@@ -33,15 +33,16 @@
   }
 
 @media (min-width: 768px) {
-  .store-section {
-  }
-  .store-section-container {
-  }
-  .h2-store-section {
-  }
-  .p-store-section {
-  }
-  .store-section-link {
+    .store-section {
+        margin-bottom: 80px;
+    }
+    .store-section-container {
+        margin: 0 auto;
+        max-width: 768px;
+        padding: 60px 20px;
+    }
+    .store-section-link {
+      width: 20%;
   }
 }
 
