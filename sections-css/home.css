@@ -30,10 +30,10 @@
   width: 35%;
   cursor: pointer;
 }
-.store {
+.store-link {
   background-color: #af2e2e;
 }
-.store:hover {
+.store-link:hover {
   background-color: #810101;
   transition: 0.4s ease-in-out;
 }
