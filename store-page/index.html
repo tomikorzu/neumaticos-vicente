@@ -1,114 +1,142 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tienda online</title>
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="../sections-css/header.css">
-    <link rel="stylesheet" href="./sections-css-store/store.css">
-</head>
-<body>
-  <header>
-    <nav class="navbar">
-      <a class="navbar-logo" href="./index.html"
-        ><img
-          src="../img/Neumaticos-logo-2-logo-vn- (1).png"
-          alt="Neumáticos Vicente logo"
-      /></a>
-      <ul class="navbar-sections">
-        <li><a href="../index.html" class="navbar-sections-a">Inicio</a></li>
-        <li><a href="#products" class="navbar-sections-a">Productos</a></li>
-        <li><a href="#services" class="navbar-sections-a">Servicios</a></li>
-        <li><a href="#contact" class="navbar-sections-a">Contacto</a></li>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../sections-css/header.css" />
+    <link rel="stylesheet" href="./sections-css-store/store.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a class="navbar-logo" href="./index.html"
+          ><img
+            src="../img/Neumaticos-logo-2-logo-vn- (1).png"
+            alt="Neumáticos Vicente logo"
+        /></a>
+        <ul class="navbar-sections">
+          <li><a href="../index.html" class="navbar-sections-a">Inicio</a></li>
+          <li><a href="#products" class="navbar-sections-a">Productos</a></li>
+          <li><a href="#services" class="navbar-sections-a">Servicios</a></li>
+          <li><a href="#contact" class="navbar-sections-a">Contacto</a></li>
+        </ul>
+        <ul class="navbar-links">
+          <li>
+            <a href="https://instagram.com" class="navbar-link"
+              ><i class="fa-brands fa-instagram navbar-icon-link"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://facebook.com" class="navbar-link"
+              ><i class="fa-brands fa-facebook-f navbar-icon-link"></i
+            ></a>
+          </li>
+        </ul>
+        <button
+          class="mobile-navbar-button"
+          id="hamburguer-button"
+          aria-label="Toggle navigation"
+        >
+          <div class="lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+          </div>
+        </button>
+      </nav>
+      <ul class="mobile-navbar-sections" id="mobile-navbar-sections">
+        <li>
+          <a href="../index.html" class="mobile-navbar-sections-a">Inicio</a>
+        </li>
+        <li>
+          <a href="#products" class="mobile-navbar-sections-a">Productos</a>
+        </li>
+        <li>
+          <a href="#services" class="mobile-navbar-sections-a">Servicios</a>
+        </li>
+        <li>
+          <a href="#contact" class="mobile-navbar-sections-a">Contacto</a>
+        </li>
+        <ul class="mobile-navbar-links">
+          <li>
+            <a href="https://instagram.com" class="navbar-link"
+              ><i class="fa-brands fa-instagram navbar-icon-link"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://facebook.com" class="navbar-link"
+              ><i class="fa-brands fa-facebook-f navbar-icon-link"></i
+            ></a>
+          </li>
+        </ul>
       </ul>
-      <ul class="navbar-links">
-        <li>
-          <a href="https://instagram.com" class="navbar-link"
-            ><i class="fa-brands fa-instagram navbar-icon-link"></i
-          ></a>
-        </li>
-        <li>
-          <a href="https://facebook.com" class="navbar-link"
-            ><i class="fa-brands fa-facebook-f navbar-icon-link"></i
-          ></a>
-        </li>
-      </ul>
-      <button
-        class="mobile-navbar-button"
-        id="hamburguer-button"
-        aria-label="Toggle navigation"
-      >
-        <div class="lines">
-          <span class="line line1"></span>
-          <span class="line line2"></span>
-          <span class="line line3"></span>
-        </div>
-      </button>
-    </nav>
-    <ul class="mobile-navbar-sections" id="mobile-navbar-sections">
-      <li><a href="../index.html" class="mobile-navbar-sections-a">Inicio</a></li>
-      <li>
-        <a href="#products" class="mobile-navbar-sections-a">Productos</a>
-      </li>
-      <li>
-        <a href="#services" class="mobile-navbar-sections-a">Servicios</a>
-      </li>
-      <li>
-        <a href="#contact" class="mobile-navbar-sections-a">Contacto</a>
-      </li>
-      <ul class="mobile-navbar-links">
-        <li>
-          <a href="https://instagram.com" class="navbar-link"
-            ><i class="fa-brands fa-instagram navbar-icon-link"></i
-          ></a>
-        </li>
-        <li>
-          <a href="https://facebook.com" class="navbar-link"
-            ><i class="fa-brands fa-facebook-f navbar-icon-link"></i
-          ></a>
-        </li>
-      </ul>
-    </ul>
-  </header>
+    </header>
 
-    <!-- <section id="store" class="store">
-        <h2 class="h2-store">Nuestra tienda</h2>
-        <p class="p-store">En esta sección, encontrarás algunos de mis proyectos más destacados. Cada uno demuestra mi habilidad y creatividad.</p>
-        <div class="store-row">
-          <div class="product">
-            <img class="img-product" src="./store-img/landing.png" alt="Foto de Landing Page">
-            <div class="content-product">
-              <div class="header-content-product">
-                <div class="left-header-content-product">
-                  <h3 class="h3-title-product">Landing Page</h3>
-                  <div class="author-time">
-                    <h4 class="author">GM2Dev</h4>
-                    <h5 class="time">2 Julio, 2024</h5>
-                  </div>
-                </div>
-                <div class="right-header-content-product">
-                  <div class="tech-used">
-                    <i class="fa-brands fa-html5 tech-icons tech-html"></i>
-                  </div>
-                  <div class="tech-used">
-                    <i class="fa-brands fa-css3 tech-icons tech-css"></i>
-                  </div>
+    <section id="products" class="products-home">
+      <h1 class="h1-products-home">Nuestra tienda</h1>
+      <p class="p-products-home">
+        Bienvenido a nuestra tienda online. Encuentra los mejores productos para tu auto y compra de manera rápida y sencilla.
+      </p>
+    </section>
+
+    <section id="tires" class="store">
+      <h2 class="h2-store">Neumáticos</h2>
+      <p class="p-store">
+        Descubre nuestra variedad de neumáticos para todos los vehículos. Calidad garantizada para una conducción segura y cómoda.
+      </p>
+      <div class="store-row">
+        <div class="product">
+          <img
+            class="img-product"
+            src=""
+            alt="Foto neumatico"
+          />
+          <div class="content-product">
+            <div class="header-content-product">
+              <div class="left-header-content-product">
+                <h3 class="h3-title-product">Landing Page</h3>
+                <div class="author-time">
+                  <h4 class="author">GM2Dev</h4>
+                  <h5 class="time">2 Julio, 2024</h5>
                 </div>
               </div>
-              <div class="footer-content-product">
-                <p class="paragraph-footer-content">Desarrollé esta landing page utilizando únicamente HTML y CSS, basándome en un diseño creado en Figma. La página es responsiva para todos los dispositivos.
-                </p>
-                <div class="product-link-container">
-                  <a href="https://github.com/tomikorzu/Landing-page" class="product-link" target="_blank">Ver en github</a>
-                  <a href="https://landing-page-pied-rho.vercel.app/" class="product-link" target="_blank">Ver proyecto</a>
+              <div class="right-header-content-product">
+                <div class="tech-used">
+                  <i class="fa-brands fa-html5 tech-icons tech-html"></i>
                 </div>
+                <div class="tech-used">
+                  <i class="fa-brands fa-css3 tech-icons tech-css"></i>
+                </div>
+              </div>
+            </div>
+            <div class="footer-content-product">
+              <p class="paragraph-footer-content">
+                Desarrollé esta landing page utilizando únicamente HTML y CSS,
+                basándome en un diseño creado en Figma. La página es responsiva
+                para todos los dispositivos.
+              </p>
+              <div class="product-link-container">
+                <a
+                  href="https://github.com/tomikorzu/Landing-page"
+                  class="product-link"
+                  target="_blank"
+                  >Ver en github</a
+                >
+                <a
+                  href="https://landing-page-pied-rho.vercel.app/"
+                  class="product-link"
+                  target="_blank"
+                  >Ver proyecto</a
+                >
               </div>
             </div>
           </div>
         </div>
-      </section> -->
+      </div>
+    </section>
     <script src="./store.js"></script>
     <script src="../main.js"></script>
-</body>
+  </body>
 </html>
