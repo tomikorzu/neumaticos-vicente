@@ -65,6 +65,8 @@ p, a{
 }
 @media (min-width:1440px){
     body{
+        max-width: 1800px;
+        margin: auto;
         font-size: 22px;
     }
 }

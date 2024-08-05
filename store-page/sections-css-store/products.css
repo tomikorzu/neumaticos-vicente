@@ -20,3 +20,10 @@
     text-align: start;
   }
 }
+
+@media (min-width: 1024px) {
+  .products-home {
+    max-width: 100%;
+    padding: 0px 20px;
+  }
+}

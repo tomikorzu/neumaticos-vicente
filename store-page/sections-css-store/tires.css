@@ -11,9 +11,6 @@
 .h2-products {
   font-size: 1.5em;
 }
-.p-products {
-}
-
 .products-row {
   margin-top: 20px;
   display: grid;
@@ -45,8 +42,6 @@
 .used-product {
     color: #00000090;
 }
-.info-product {
-}
 .product-link {
     color: #fff;
     background-color: #000000;
@@ -68,82 +63,29 @@
     padding: 0px 40px;
     align-items: start;
   }
-  .h2-products {
-  }
   .p-products {
     text-align: start;
   }
-  .store-h2-row-container {
-  }
-  .h4-row-container {
-  }
   .products-row {
     grid-template-columns: repeat(2, 1fr); 
-  }
-  .product {
-  }
-  .img-product {
-  }
-  .content-product {
-  }
-  .h3-title-product {
-  }
-  .price-product {
-  }
-  .product-link {
   }
 }
 
 @media (min-width: 1024px) {
   .tires {
-  }
-  .h2-products {
-  }
-  .p-products {
-  }
-  .store-h2-row-container {
-  }
-  .h4-row-container {
+    max-width: 100%;
+    padding: 0 20px;
   }
   .products-row {
-  }
-  .product {
-  }
-  .img-product {
-  }
-  .content-product {
-  }
-  .h3-title-product {
-  }
-  .price-product {
-  }
-  .product-link {
+    max-width: 1150px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px auto 0;
   }
 }
 
 @media (min-width: 1440px) {
-  .tires {
-  }
-  .h2-products {
-  }
-  .p-products {
-  }
-  .store-h2-row-container {
-  }
-  .h4-row-container {
-  }
   .products-row {
-  }
-  .product {
-  }
-  .img-product {
-  }
-  .content-product {
-  }
-  .h3-title-product {
-  }
-  .price-product {
-  }
-  .product-link {
+    max-width: 100%;
+    grid-template-columns: repeat(4, 1fr);
   }
 }
