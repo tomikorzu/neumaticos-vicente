@@ -1,26 +1,65 @@
 .tires {
+  max-width: 335px;
+  margin: 0px auto 30px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  text-align: center;
 }
 .h2-products {
+  font-size: 1.5em;
 }
 .p-products {
 }
-.store-h2-row-container {
-}
-.h4-row-container {
-}
+
 .products-row {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  text-align: start;
 }
 .product {
+  border-radius: 10px;
+  border: 1px solid #8d8d8d;
 }
 .img-product {
+  max-width: 100%;
+  border-radius: 10px 10px 0 0;
 }
 .content-product {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-top: 1px solid #00000080;
 }
 .h3-title-product {
+    font-size: 1.25em;
 }
 .price-product {
+    font-weight: 700;
+}
+.used-product {
+    color: #00000090;
+}
+.info-product {
 }
 .product-link {
+    color: #fff;
+    background-color: #000000;
+    padding: 10px 20px;
+    font-weight: 600;
+    margin: 10px 0;
+    display: block;
+    width: fit-content;
+    border-radius: 10px;
+}
+.product-link:hover{
+    background-color: #212020;
+    transition: .4s ease-in-out;
 }
 
 @media (min-width: 768px) {
