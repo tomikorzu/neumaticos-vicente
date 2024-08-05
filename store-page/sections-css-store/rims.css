@@ -1,4 +1,4 @@
-.tires {
+.rims {
   max-width: 335px;
   margin: 0px auto 30px;
   padding: 0 20px;
@@ -58,7 +58,7 @@
 }
 
 @media (min-width: 768px) {
-  .tires {
+  .rims {
     max-width: 900px;
     padding: 0px 40px;
     align-items: start;
@@ -72,7 +72,7 @@
 }
 
 @media (min-width: 1024px) {
-  .tires {
+  .rims {
     max-width: 100%;
     padding: 0 20px;
   }
