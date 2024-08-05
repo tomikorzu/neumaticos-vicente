@@ -1,8 +1,18 @@
+
+
 .products-home {
+    max-width: 335px;
+    margin: 80px auto 30px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 .h1-products-home {
+    font-size: 28px;
 }
 .p-products-home {
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
