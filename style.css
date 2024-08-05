@@ -68,3 +68,20 @@ p, a{
         font-size: 22px;
     }
 }
+
+/* Whatsapp link */
+.wsp-link{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #25D366;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 100%;
+    display: flex;
+}
+.wsp-link:hover{
+    background-color: #1da14e;
+    transition: .4s ease-in-out;
+}
