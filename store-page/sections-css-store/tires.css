@@ -16,8 +16,8 @@
 
 .products-row {
   margin-top: 20px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr; 
   gap: 40px;
   text-align: start;
 }
@@ -64,16 +64,21 @@
 
 @media (min-width: 768px) {
   .tires {
+    max-width: 900px;
+    padding: 0px 40px;
+    align-items: start;
   }
   .h2-products {
   }
   .p-products {
+    text-align: start;
   }
   .store-h2-row-container {
   }
   .h4-row-container {
   }
   .products-row {
+    grid-template-columns: repeat(2, 1fr); 
   }
   .product {
   }
