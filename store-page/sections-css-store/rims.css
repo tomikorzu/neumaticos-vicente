@@ -30,6 +30,7 @@
   padding: 10px 20px;
   display: flex;
   flex-direction: column;
+  background-color: #333;
   gap: 5px;
   border-top: 1px solid #00000080;
 }

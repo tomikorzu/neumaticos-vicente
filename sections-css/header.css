@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #363639;
+  background-color: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,10 +9,10 @@
   top: 0;
   left: 0;
   right: 0;
-  transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
 }
 .navbar.scrolled {
-  background-color: #232325;
+  background-color: #1a1a1a;
 }
 .navbar-logo {
   display: flex;
@@ -109,7 +109,7 @@
   width: 100%;
   background-color: #363639;
   margin: 0;
-  transform: translateX(-100%);
+  transform: translateX(100%);
   transition: transform 0.4s ease-in-out;
 }
 .mobile-navbar-sections.show {
@@ -160,6 +160,7 @@
   .navbar-sections-a {
     color: #f0e9e9;
     font-size: 18px;
+    font-weight: 500;
   }
   .navbar-sections-a:hover {
     color: #fff;

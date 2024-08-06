@@ -1,6 +1,7 @@
 function toggleMenu() {
     const navbar = document.querySelector('.navbar');
     hamburgerButton.classList.toggle('active');
+
     mobileNavSections.classList.toggle('show');
     navbar.classList.toggle('transparent');
 }
@@ -38,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
 function handleScroll() {
     const navbar = document.querySelector('.navbar');
     
-    if (window.scrollY > 70) {
+    if (window.scrollY > 10) {
         navbar.classList.add('scrolled');
     } else {
         navbar.classList.remove('scrolled');

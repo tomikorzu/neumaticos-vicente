@@ -1,6 +1,6 @@
 .store-section {
-    background-color: #6b0000;
-    color: #fff;
+    background-color: #BCBCBC;
+    color: #000;
   }
   .store-section-container {
     max-width: 335px;
@@ -16,7 +16,7 @@
     text-align: center;
   }
   .store-section-link {
-    background-color: #ff0000;
+    background-color: #000;
     margin-top: 10px;
     color: #ffffe6;
     font-weight: 500;
@@ -28,7 +28,7 @@
     font-weight: 500;
   }
   .store-section-link:hover {
-    background-color: #ff1b1b;
+    background-color: #2b2b2b;
     transition: 0.4s;
   }
 

@@ -31,17 +31,17 @@
   cursor: pointer;
 }
 .store-link {
-  background-color: #af2e2e;
+  background-color: #D01919;
 }
 .store-link:hover {
-  background-color: #810101;
+  background-color: #b50a0a;
   transition: 0.4s ease-in-out;
 }
 .contact {
-  background-color: #444141;
+  background-color: #595959;
 }
 .contact:hover {
-  background-color: #000;
+  background-color: #4d4b4b;
   transition: 0.4s ease-in-out;
 }
 .img-home {
